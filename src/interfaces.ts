@@ -1,4 +1,7 @@
 export abstract class ILectorDeTarjeta {
+  verificarCodigoTarjeta(verificarCodigoTarjeta: any) {
+    throw new Error("Method not implemented.");
+  }
   constructor(protected readonly estacionamiento: IEstacionamiento) {}
   abstract recibirTarjeta(): void;
   abstract devolverTarjeta(): void;
